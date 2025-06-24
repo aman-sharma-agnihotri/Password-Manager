@@ -1,33 +1,36 @@
 # Password Manager 
 
  ## Password Manager using React, Tailwindcss, MongoDB, Express, Node!
+
 I built a Full Stack Password Manager Web Application using the MERN Stack
 
 Over the past few days, I worked on creating a fully functional Password Manager web app as a personal project to strengthen my MERN (MongoDB, Express, React, Node.js) stack skills.
 
-**🔧 Technologies Used:**
-Frontend: React.js with Hooks (useState, useEffect, useRef), TailwindCSS for responsive and modern UI
+## 🔧 Technologies Used:
 
-Backend: Node.js and Express.js for REST API routes and server-side logic
+**Frontend:** React.js with Hooks (useState, useEffect, useRef), TailwindCSS for responsive and modern UI
 
-Database: MongoDB for storing password entries
+**Backend:** Node.js and Express.js for REST API routes and server-side logic
 
-Tools/Libraries: UUID for unique identifiers, Toastify for user feedback, and the Clipboard API for copying data securely
+**Database:** MongoDB for storing password entries
 
-**✅ Key Features:**
-Add, Edit, Delete Passwords: Each password entry (site, username, password) is stored in MongoDB with a unique ID.
+**Tools/Libraries:** UUID for unique identifiers, Toastify for user feedback, and the Clipboard API for copying data securely
 
-Copy to Clipboard: Users can copy site URLs, usernames, or passwords directly to their clipboard with a single click.
+## ✅ Key Features:
 
-Show/Hide Password Toggle: Improves user experience with basic privacy features using icons.
+**Add, Edit, Delete Passwords:** Each password entry (site, username, password) is stored in MongoDB with a unique ID.
 
-Clean UI: Built using TailwindCSS with mobile responsiveness.
+**Copy to Clipboard:** Users can copy site URLs, usernames, or passwords directly to their clipboard with a single click.
 
-Persistent Storage: Data is stored and retrieved in real-time from MongoDB through API calls.
+**Show/Hide Password Toggle:** Improves user experience with basic privacy features using icons.
 
-Edit Mode: When editing a password, the old entry is deleted and the new one is saved with a new ID—ensuring simple state management.
+**Clean UI:** Built using TailwindCSS with mobile responsiveness.
 
-**🔍 What I Learned:**
+**Persistent Storage:** Data is stored and retrieved in real-time from MongoDB through API calls.
+
+**Edit Mode:** When editing a password, the old entry is deleted and the new one is saved with a new ID—ensuring simple state management.
+
+## 🔍 What I Learned:
 How to integrate a complete front-end React application with a Node/Express API.
 
 CRUD operations using RESTful APIs and MongoDB.
@@ -47,7 +50,7 @@ Efficient debugging and error-handling during full-stack development.
 > Legal action may be taken in case of unauthorized use.
 
 ## Live Demo
-[Click Here](/)
+[Click Here](https://password-manager-aman-sharma-projects.vercel.app/)
 
 ## License
 See the [LICENSE](./LICENSE) file for more details.
