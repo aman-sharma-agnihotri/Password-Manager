@@ -17,9 +17,9 @@ const Navbar = () => {
                 
             </li>
         </ul> */}
-        <button className='hover:cursor-pointer sm:flex gap-1 github sm:ring-white sm:ring-1 sm:rounded-full sm:p-1'>
+        <a href="https://github.com/aman-sharma-agnihotri" target='_blank'><button className='hover:cursor-pointer sm:flex gap-1 github sm:ring-white sm:ring-1 sm:rounded-full sm:p-1'>
           <img src="icons/github.svg" alt="" />GitHub
-        </button>
+        </button></a>
         </div>
     </nav>
   )
